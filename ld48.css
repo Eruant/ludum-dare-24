@@ -1,0 +1,38 @@
+body { 
+  background: #333;
+  width: 640px;
+  margin:0 auto;
+}
+
+h1 {
+  font-family:Monaco;
+  color:#3f4447;
+  text-align:center;
+}
+
+p, li {
+  font-family:Monaco;
+  color:#999;
+  font-size: 12px;
+  text-align:center;
+}
+
+p#leveltext {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+li {
+  text-align:left;
+}
+
+a {
+  color: #3ff;
+}
+
+canvas#main-canvas { 
+  background: #555 none;
+}
+canvas#buffer-canvas {
+  display:none;
+}

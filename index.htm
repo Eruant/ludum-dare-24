@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ludum Dare 24 - Littleball.</title>
+<link rel="stylesheet" type="text/css" href="ld24.css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24534226-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<h1>Ludum Dare 24</h1>
+
+<canvas id="main-canvas"><p>Your browser does not support this feature</p></canvas>
+<canvas id="buffer-canvas"><p>Your browser does not support this feature</p></canvas>
+
+<p id="leveltext">
+  Get to the star to complete each level.
+</p>
+
+<p style="text-align:left;">
+  This game has been tested on Firefox and Chrome, I wouldn't advise using any Internet Exploder browsers.<br/>
+  <br/>
+  If you have any (constructive) feedback, <a href="mailto:info@littleball.co.uk">info@littleball.co.uk</a>
+</p>
+
+<script type="text/javascript" src="world.js?5"></script>
+<script type="text/javascript" src="player.js?3"></script>
+<script type="text/javascript" src="audio.js?3"></script>
+<script type="text/javascript" src="ld24.js?3"></script>
+</body>
